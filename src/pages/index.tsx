@@ -1,4 +1,4 @@
-import { Card } from "./components/Card";
+import { Card } from "../components/Card";
 
 export default function Home() {
   return (
@@ -8,9 +8,9 @@ export default function Home() {
       </h1>
 
       <div className="grid w-full grid-cols-1 grid-rows-3 mt-10 md:mt-24 gap-4 md:grid-cols-3 md: grid-rows-1">
-        <Card href='/nextjs' imgSrc='/img/nextjs.svg' layoutId="nextjs-logo" />
-        <Card href='/tailwind' imgSrc='/img/tailwind.svg' layoutId="tailwind-logo" />
-        <Card href='/framermotion' imgSrc='/img/framermotion.svg' layoutId="framermotionlogo" />
+        <Card href="/nextjs" imgSrc="/img/nextjs.svg" layoutId="nextjs-logo" />
+        <Card href="/tailwind" imgSrc="/img/tailwind.svg" layoutId="tailwind-logo" />
+        <Card href="/framermotion" imgSrc="/img/framermotion.svg" layoutId="framermotion-logo" />
       </div>
     </div>
   );
